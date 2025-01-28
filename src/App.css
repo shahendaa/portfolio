@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbar {
+  width: 100%;
+min-height: 2vh;
+display: flex;
+align-items: center;
+background-color: #282c34;
+background-attachment: fixed;
+box-sizing: border-box;
+}
+img {
+padding-left: 900px;
+  height: 500px;
+}
+.Text1 {
+  font-style: normal;
+  font-weight:900px;
+padding-top: 200px;
+color: white;
+}
+span{font-size: 30px;
+margin: 40px;}
+
+.linkbtn{border-radius: 30px;
+font-size: 30px;
+margin: 50px;
+}
+
+.a1{text-decoration: none;
+color: black;}
+.a1:hover{color: blue;}
+.titles{display: flex;
+justify-content: space-between;
+}
+
+.word{font-size: 40px;
+margin: 30px;}
+.Myname{border-style: solid;
+border-radius: 10px;
+border-color: red;
+color: red;
+padding: 10px;
+margin: 40px;}
+.word2{
+  margin: 30px;
+}
+
+
+
+
+.changed_color {
+  color: red !important;
+ font-size: 40px;
+}
+
+.p1{margin: 30px;
+font-size: 17px;}
+.btnlinkk{margin: 30px;
+padding: 20px;
+}
+.a1{text-decoration: none;}
+.btnlinkk:hover{background-color: grey;}
+.header1{background-image: url(https://plus.unsplash.com/premium_photo-1711051475117-f3a4d3ff6778?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wfGVufDB8fDB8fHww);
+background-size: cover;
+width: 100%;
+min-height: 130vh;
+background-position: center;
+background-repeat: no-repeat;
+padding: 80px;
+}
+.main{background-color: #282c34;
+width: 100%;
+padding: 40px;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+text-align: center;
+
+
+}
+.i1{color: red;
+border-color: white;
+border-style:solid;
+border-radius: 50px;
+padding: 20px;
+cursor: pointer;} 
+.div11{ background-color: #282c34 ;
+color: white; }
+.cardss{background-attachment: fixed;
+background-color: #282c34;
+overflow: hidden;}
+.i1:hover{color:white;
+;
+background-color: wheat;}

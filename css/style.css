@@ -97,6 +97,26 @@ html{
     margin-bottom:20px;
 }
 
+#projects .card {
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+
+#projects .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12) !important;
+}
+
+#projects .card-body {
+    padding: 40px 30px;
+}
+
+#projects h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+
 /* Contact Section */
 
 #contact{
